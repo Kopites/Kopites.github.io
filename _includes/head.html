@@ -1,0 +1,19 @@
+<head>
+	<meta charset="UTF-8">
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://yandex.st/highlightjs/8.2/styles/github.min.css">
+	<link rel="stylesheet" href="{{ "/css/blaze.min.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/css/blaze.colors.min.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/css/site.css" | prepend: site.baseurl }}">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff3d00">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>

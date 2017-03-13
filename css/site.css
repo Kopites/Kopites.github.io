@@ -1,0 +1,288 @@
+body {
+	overflow-x: hidden;
+}
+
+.c-text {
+	font-family: "Source Sans Pro", -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+	color: #2c3e50;
+}
+
+.c-code {
+	font-family: Roboto Mono, Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace;
+	font-size: .8em;
+}
+
+.c-heading[id] a {
+	font-size: 0.6em;
+	vertical-align: middle;
+}
+
+@media (min-width: 42em) {
+	body {
+		font-size: 18px;
+	}
+}
+
+section {
+	margin-bottom: 5em;
+}
+
+/*
+ * Github corner
+ */
+.github-corner:hover .octo-arm {
+	animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+	0%, 100% {
+		transform: rotate(0)
+	}
+	20%, 60% {
+		transform: rotate(-25deg)
+	}
+	40%, 80% {
+		transform: rotate(10deg)
+	}
+}
+
+@media (max-width: 500px) {
+	.github-corner:hover .octo-arm {
+		animation: none
+	}
+
+	.github-corner .octo-arm {
+		animation: octocat-wave 560ms ease-in-out
+	}
+}
+
+/*
+ * Menu button for smaller screens
+ */
+
+a.navbtn, a.navbtn:hover, a.navbtn:active, a.navbtn:visited {
+	position: absolute;
+	top: 2rem;
+	right: 1rem;
+	text-decoration: none;
+	padding: 2px;
+	font-size: 0.9rem;
+	color: #2c3e50;
+}
+
+@media (min-width: 42em) {
+	.navbtn {
+		display: none;
+	}
+}
+
+/*
+ * Page Header
+ */
+
+.header {
+	text-align: center;
+	padding-bottom: 2em;
+	color: #fff;
+}
+
+.header .header__row {
+	padding-top: 1.4em;
+	padding-bottom: 1.4em;
+}
+
+.header--primary {
+	padding-top: 2em;
+	color: #2c3e50;
+}
+
+.header--secondary {
+	font-size: 0.9em;
+	padding: 2em 0 4em;
+	background-color: #42A5F5;
+}
+
+.header--secondary .grid__cell {
+	padding: 1em;
+}
+
+.header--inverted {
+	background-color: #222;
+}
+
+.header--white {
+	color: inherit;
+	background-color: #fff;
+}
+
+.logo .o-image {
+	display: inline-block;
+	width: 200px;
+}
+
+.product-name {
+	font-size: 3.5em;
+	font-weight: bold;
+}
+
+@media (min-width: 42em) {
+	.product-name {
+		font-size: 5em;
+	}
+}
+
+/*
+ * Page Content
+ */
+.page-header {
+	border-bottom: 1px solid #eee;
+}
+
+.page-logo {
+	width: 90px;
+}
+
+@media (min-width: 42em) {
+	.page-logo {
+		width: 120px;
+	}
+}
+
+.main {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.view-code {
+	margin-top: 2em;
+}
+
+.view-code .c-link {
+	display: block;
+	padding: 0.4em 0;
+}
+
+/*
+ * Nav
+ */
+.nav {
+	font-size: 0.9em;
+}
+
+.nav .c-list__item.active {
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin: 0;
+	border-radius: 4px;
+	background-color: #42A5F5;
+}
+
+.nav .c-list__item.active .c-link {
+	color: #fff;
+}
+
+/*
+ * Footer
+ */
+.footer {
+	padding: 2em 1em;
+	font-size: 0.8em;
+}
+
+.footer--page {
+	margin-top: 3em;
+	border-top: 1px solid #eee;
+}
+
+.footer__links {
+	text-align: right;
+}
+
+/*
+ * Grid outlines
+ */
+
+.o-grid--demo.o-grid {
+	border: 2px solid #ff69b4;
+}
+
+.o-grid-key {
+	font-weight: bold;
+}
+
+.o-grid-key--grid {
+	color: #ff69b4;
+}
+
+.o-grid-key--grid-cell {
+	color: #00bfff;
+}
+
+.o-grid-key--padding {
+	color: #66bb6a;
+}
+
+.o-grid--demo .o-grid__cell {
+	border: 2px solid #00bfff;
+	background-color: #b2f5b5;
+}
+
+.o-grid-text {
+	background-color: #fff;
+}
+
+/*
+ * Buttons demo
+ */
+.button-demo .c-button {
+	margin: 5px 0;
+}
+
+/*
+ * Demo containers
+ */
+.demo-container {
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
+
+.toast-demo {
+	position: relative;
+	height: 440px;
+	overflow: hidden;
+	border: 1px solid #eee;
+}
+
+.alignment-demo {
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+	border: 1px solid #eee;
+}
+
+.modal-demo {
+	position: relative;
+	height: 550px;
+	overflow: hidden;
+	background-image: url(https://unsplash.it/1024/963?random);
+	background-size: cover;
+}
+
+.modal-demo--noimg .modal-demo {
+	background-image: none;
+}
+
+.modal-demo--noimg .c-overlay {
+	display: none;
+}
+
+.download-theme {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #fff;
+	border-top: 1px solid #f2f2ea;
+}

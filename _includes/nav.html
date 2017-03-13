@@ -1,0 +1,79 @@
+<h3 class="c-heading c-heading--medium js-nav-group">Getting Started</h3>
+<ul class="c-list c-list--unstyled">
+	{% for link in site.navigation-getting-started %}
+	{% assign active = nil %}
+	{% if page.url == link.url %}
+	{% assign active = 'active' %}
+	{% endif %}
+	<li class="c-list__item {{ active }}"><a class="c-link" href="{{ link.url }}">{{ link.text }}</a></li>
+	{% endfor %}
+</ul>
+
+<h3 class="c-heading c-heading--medium js-nav-group">Support</h3>
+<ul class="c-list c-list--unstyled">
+	{% for link in site.navigation-support %}
+	{% assign active = nil %}
+	{% if page.url == link.url %}
+	{% assign active = 'active' %}
+	{% endif %}
+	<li class="c-list__item {{ active }}"><a class="c-link" href="{{ link.url }}">{{ link.text }}</a></li>
+	{% endfor %}
+</ul>
+
+<h3 class="c-heading c-heading--medium js-nav-group">Templates</h3>
+<ul class="c-list c-list--unstyled">
+	{% for link in site.navigation-templates %}
+	{% assign active = nil %}
+	{% if page.url == link.url %}
+	{% assign active = 'active' %}
+	{% endif %}
+	<li class="c-list__item {{ active }}"><a class="c-link" href="{{ link.url }}">{{ link.text }}</a></li>
+	{% endfor %}
+</ul>
+
+<h3 class="c-heading c-heading--medium js-nav-group">Generics</h3>
+<ul class="c-list c-list--unstyled">
+	{% for link in site.navigation-generics %}
+	{% assign active = nil %}
+	{% if page.url == link.url %}
+	{% assign active = 'active' %}
+	{% endif %}
+	<li class="c-list__item {{ active }}"><a class="c-link" href="{{ link.url }}">{{ link.text }}</a></li>
+	{% endfor %}
+</ul>
+</ul>
+
+<h3 class="c-heading c-heading--medium js-nav-group">Objects</h3>
+<ul class="c-list c-list--unstyled">
+	{% for link in site.navigation-objects %}
+	{% assign active = nil %}
+	{% if page.url == link.url %}
+	{% assign active = 'active' %}
+	{% endif %}
+	<li class="c-list__item {{ active }}"><a class="c-link" href="{{ link.url }}">{{ link.text }}</a></li>
+	{% endfor %}
+</ul>
+
+<h3 class="c-heading c-heading--medium js-nav-group">Components</h3>
+<ul class="c-list c-list--unstyled">
+	{% for link in site.navigation-components %}
+	{% assign active = nil %}
+	{% if page.url == link.url %}
+	{% assign active = 'active' %}
+	{% endif %}
+	<li class="c-list__item {{ active }}"><a class="c-link" href="{{ link.url }}">{{ link.text }}</a></li>
+	{% endfor %}
+</ul>
+
+
+<h3 class="c-heading c-heading--medium js-nav-group">Utilities</h3>
+<ul class="c-list c-list--unstyled">
+	{% for link in site.navigation-utilities %}
+	{% assign active = nil %}
+	{% if page.url == link.url %}
+	{% assign active = 'active' %}
+	{% endif %}
+	<li class="c-list__item {{ active }}"><a class="c-link" href="{{ link.url }}">{{ link.text }}</a></li>
+	{% endfor %}
+</ul>
+</ul>

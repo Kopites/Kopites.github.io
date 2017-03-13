@@ -1,0 +1,182 @@
+# Site settings
+permalink: pretty
+title: Blaze CSS - Open Source Modular CSS Toolkit
+description: Blaze is designed to give you structure and a good starting point for your website.
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: 'http://blazecss.com' # the base hostname & protocol for your site
+twitter_username: blazecss
+version: '3.2.0'
+size: '9Kb'
+
+# Build settings
+markdown: kramdown
+
+# Navigation
+navigation-getting-started:
+- text: Install
+  url: /getting-started/install/
+
+- text: Custom build
+  url: /getting-started/custombuild/
+
+- text: About
+  url: /getting-started/about/
+
+
+navigation-templates:
+- text: Showcase
+  url: /templates/
+- text: App
+  url: /templates/app/
+- text: Blog
+  url: /templates/blog/
+- text: Dashboard
+  url: /templates/dashboard/
+- text: Editor
+  url: /templates/editor/
+- text: Login
+  url: /templates/login/
+- text: Mail
+  url: /templates/mail/
+
+
+navigation-themes:
+- text: Showcase
+  url: /themes/
+- text: Build your own
+  url: /themes/custom/
+
+
+navigation-support:
+- text: Sponsor
+  url: https://www.patreon.com/blaze
+- text: Stickers
+  url: https://www.stickermule.com/user/1070774181/stickers
+
+
+navigation-generics:
+- text: Global
+  url: /generics/global/
+
+
+navigation-objects:
+- text: Containers
+  url: /objects/containers/
+
+- text: Grid
+  url: /objects/grid/
+
+- text: Panels
+  url: /objects/panels/
+
+- text: Images
+  url: /objects/images/
+
+- text: Drawers
+  url: /objects/drawers/
+
+- text: Medias
+  url: /objects/medias/
+
+- text: Modals
+  url: /objects/modals/
+
+
+navigation-components:
+- text: Addresses
+  url: /components/addresses/
+
+- text: Accordions
+  url: /components/accordions/
+
+- text: Alerts
+  url: /components/alerts/
+
+- text: Avatars
+  url: /components/avatars/
+
+- text: Badges
+  url: /components/badges/
+
+- text: Breadcrumbs
+  url: /components/breadcrumbs/
+
+- text: Bubbles
+  url: /components/bubbles/
+
+- text: Buttons
+  url: /components/buttons/
+
+- text: Calendars
+  url: /components/calendars/
+
+- text: Cards
+  url: /components/cards/
+
+- text: Headings
+  url: /components/headings/
+
+- text: Inputs
+  url: /components/inputs/
+
+- text: Lists
+  url: /components/lists/
+
+- text: Menus
+  url: /components/menus/
+
+- text: Navs
+  url: /components/navs/
+
+- text: Overlays
+  url: /components/overlays/
+
+- text: Pagination
+  url: /components/pagination/
+
+- text: Progress
+  url: /components/progress/
+
+- text: Ranges
+  url: /components/ranges/
+
+- text: Tables
+  url: /components/tables/
+
+- text: Tabs
+  url: /components/tabs/
+
+- text: Tags
+  url: /components/tags/
+
+- text: Toasts
+  url: /components/toasts/
+
+- text: Toggles
+  url: /components/toggles/
+
+- text: Tooltips
+  url: /components/tooltips/
+
+- text: Trees
+  url: /components/trees/
+
+- text: Typography
+  url: /components/typography/
+
+
+navigation-utilities:
+- text: Alignment
+  url: /utilities/alignment/
+
+- text: Boxing
+  url: /utilities/boxing/
+
+- text: Elevation
+  url: /utilities/elevation/
+
+- text: Sizes
+  url: /utilities/sizes/
+
+- text: Colors
+  url: /utilities/colors/
