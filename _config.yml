@@ -180,3 +180,5 @@ navigation-utilities:
 
 - text: Colors
   url: /utilities/colors/
+
+theme: jekyll-theme-architect
